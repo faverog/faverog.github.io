@@ -172,6 +172,7 @@ body
     .see
     {
         width: 40vw;
+        max-height: 400px;
     }
 }
 
