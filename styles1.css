@@ -178,3 +178,16 @@ body
         max-height: 150px;
     }
 }
+
+@media (max-height: 420px)
+{
+    .f
+    {
+        font-size: 80%;
+        margin-top: 5px;
+    }
+        .see
+    {
+        max-height: 150px;
+    }
+}
