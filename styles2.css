@@ -1,0 +1,135 @@
+body {
+    height: 100%; /* Used to enable scrolling */
+    background: linear-gradient(white, #ffeb99, #ffc266);
+}
+
+.footer
+{
+  width: 100%;
+  text-align: center;
+  background-color: #ffb84d;
+  border-style: solid;
+  border-width: thin;
+}
+
+.logo
+{
+    display: block;
+    width: 11vw;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo1
+{
+    display: block;
+    width: 6vw;
+    min-width: 30px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.book
+{
+    height: 11vw;
+    width: auto;
+}
+
+.book1
+{
+    height: 5vw;
+    min-height: 30px;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.section
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h1
+{
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    font-size: 5vw;
+}
+.h2
+{
+    display: none;
+}
+.p
+{
+    text-align: center;
+    font-size: 3vw;
+}
+
+.figure-caption
+{
+    color: black;
+    border-style: solid;
+    background-color: white;
+    border-width: thin;
+}
+
+.beatles
+{
+    width: 40vw;
+    max-height: 800px;
+    margin: auto;
+    border-style: solid;
+}
+
+.portrait
+{
+    height: 50vw;
+    max-height: 800px;
+    margin: auto;
+    border-style: solid;
+}
+#logos
+{
+    display: none;
+    visibility: hidden;
+}
+
+#collapse
+{
+    display: block;
+    visibility: visible;
+}
+
+
+@media (min-height: 600px) and (min-width: 770px)
+{
+    #logos
+    {
+        display: block;
+        visibility: visible;
+    }
+
+    #collapse
+    {
+        display: none;
+    }
+    .h2
+    {
+        display: block;
+        text-align: center;
+    }
+    .h1
+    {
+        margin-top: 1.5vh;
+        margin-bottom: 5vh;
+        text-align: center;
+        font-size: 3vw;
+    }
+    .p
+    {
+        text-align: center;
+        font-size: 1.5vw;
+    }
+}
