@@ -131,7 +131,7 @@ body
 .see
 {
     width: 40vw;
-    max-height: 350px;
+    max-height: 400px;
 }
 
 @media (min-height: 600px) and (min-width: 770px)
@@ -172,7 +172,7 @@ body
     .see
     {
         width: 40vw;
-        max-height: 350px;
+        max-height: 400px;
     }
 }
 
